@@ -1,0 +1,44 @@
+{
+  "name": "Pyronite Physiology",
+  "modifiers": {
+    "fiskheroes:fireball": {
+      "damageProfile": {
+        "damage": 6.0,
+        "types": {
+          "FIRE": 2.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 20,
+          "IGNITE": 10
+        }
+      },
+      "radius": 2.5,
+      "cooldownTime": 5,
+      "soundEvents": {
+        "SHOOT": "fiskheroes:fireball"
+      }
+    },
+    "fiskheroes:flame_blast": {
+      "damageProfile": {
+        "damage": 5.0,
+        "types": {
+          "FIRE": 3.0
+        },
+        "properties": {
+          "COOK_ENTITY": true,
+          "HEAT_TRANSFER": 160,
+          "IGNITE": 10
+        }
+      },
+      "range": 50.0
+    },
+    "fiskheroes:propelled_flight": {
+    },
+    "fiskheroes:water_breathing": {
+    },
+    "fiskheroes:fire_immunity": {
+      }
+  }
+  }
+  
